@@ -12,7 +12,7 @@ Tila = 'valikko'
 class Omena:
     def __init__(self):
         self.sijainti = (1,1)
-        self.varitys = (200, 10, 15)      # about vihreä
+        self.varitys = (200, 10, 15)
     def piirra(self):
         sense.set_pixel(self.sijainti[0],self.sijainti[1], self.varitys)
     def siirra(self):
